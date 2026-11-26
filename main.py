@@ -3,7 +3,8 @@
 
 Writes one line to /output/entry.txt: the dog's review of the mailman.
 Gate: UTF-8 text of 1 to 200 characters, not only whitespace.
-Deterministic, no network, no randomness.
+Deterministic, no network, no randomness. The file ends exactly at the
+last word: no trailing newline.
 """
 
 import os
